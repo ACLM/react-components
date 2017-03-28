@@ -11,7 +11,7 @@ export default function Conversation() {
   </div>
 
   <div className="speaker consumer">
-    <div className="avatar"><span className="fred_avatar"></span>
+    <div className="avatar"><div className="customer_avatar"></div>
     </div>
     <div className="statement_container">
       <span className="speaker_name">Fred</span> <span className="speaker_handle">@Fred_theConsumer</span> <span className="time_stamp"> 6 hours ago</span>
@@ -25,7 +25,7 @@ export default function Conversation() {
   </div>
 
   <div className="speaker">
-    <div className="avatar "><span className="agent_avatar"></span>
+    <div className="avatar "><div className="support_avatar"></div>
     </div>
     <div className="statement_container">
       <span className="speaker_name">Agent</span> <span className="speaker_handle">@Agent_technology_company</span> <span className="time_stamp"> 5 hours ago</span>
@@ -39,7 +39,7 @@ export default function Conversation() {
   </div>
 
   <div className="speaker consumer">
-    <div className="avatar "><span className="fred_avatar"></span>
+    <div className="avatar "><div className="customer_avatar"></div>
     </div>
     <div className="statement_container ">
       <span className="speaker_name">Fred</span> <span className="speaker_handle">@Fred_theConsumer</span> <span className="time_stamp"> 4 hours ago</span>
@@ -52,7 +52,7 @@ export default function Conversation() {
   </div>
 
   <div className="speaker">
-    <div className="avatar "><span className="agent_avatar"></span>
+    <div className="avatar "><div className="support_avatar"></div>
     </div>
     <div className="statement_container">
       <span className="speaker_name">Agent</span> <span className="speaker_handle">@Agent_technology_company</span> <span className="time_stamp"> 2 hours ago</span>
@@ -66,7 +66,7 @@ export default function Conversation() {
 
   <div className="speaker consumer">
 
-    <div className="avatar "><span className="fred_avatar"></span>
+    <div className="avatar "><div className="customer_avatar"></div>
     </div>
 
 
@@ -82,7 +82,7 @@ export default function Conversation() {
   </div>
 
   <div className="speaker">
-    <div className="avatar "><span className="agent_avatar"></span>
+    <div className="avatar "><div className="support_avatar"></div>
     </div>
     <div className="statement_container">
       <span className="speaker_name">Agent</span> <span className="speaker_handle">@Agent_technology_company</span> <span className="time_stamp"> 38 minutes ago</span>
@@ -95,7 +95,7 @@ export default function Conversation() {
   </div>
 
   <div className="speaker consumer">
-    <div className="avatar "><span className="fred_avatar"></span>
+    <div className="avatar "><div className="customer_avatar"></div>
     </div>
     <div className="statement_container ">
       <span className="speaker_name">Fred</span> <span className="speaker_handle">@Fred_theConsumer</span> <span className="time_stamp"> 24 minutes ago</span>
@@ -110,7 +110,7 @@ export default function Conversation() {
   </div>
 
   <div className="speaker">
-    <div className="avatar"><span className="agent_avatar"></span>
+    <div className="avatar"><div className="support_avatar"></div>
     </div>
     <div className="statement_container">
       <span className="speaker_name">Agent</span> <span className="speaker_handle">@Agent_technology_company</span> <span className="time_stamp">16 minutes ago</span>
@@ -124,8 +124,8 @@ export default function Conversation() {
 </div>
   <div id="contribute" className="contribute_container">
     <div className="input_wrapper">
-    <div className="input_avatar"></div>
-      <div className="input_area"><textarea> </textarea></div>
+    <div className="input_avatar customer_avatar"></div>
+      <div className="input_area"><textarea>Reply to @Agent_technology_company</textarea></div>
     <div className="submit_button"><button className="base--button_fill">Reply</button></div>
     </div>
   </div>

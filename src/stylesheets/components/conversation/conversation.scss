@@ -52,11 +52,25 @@
 
 .avatar {
   float:left;
-  width: 70px;
-  height: 70px;
-  border: 1px solid color('gray', 20);
-  border-radius: 10px;
   margin-right: 1em;
+  width: 70px;
+}
+.customer_avatar {
+    background-image: url("/images/customer.png");
+    height: 70px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 1px solid color('gray', 20);
+    border-radius: 10px;
+}
+
+.support_avatar {
+    background-image: url("/images/support.png");
+    height: 70px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 1px solid color('gray', 20);
+    border-radius: 10px;
 }
 
 .statement_container {
