@@ -125,7 +125,7 @@ export default function Conversation() {
   <div id="contribute" className="contribute_container">
     <div className="input_wrapper">
     <div className="input_avatar customer_avatar"></div>
-      <div className="input_area"><textarea>Reply to @Agent_technology_company</textarea></div>
+      <div className="input_area"><textarea placeholder="Reply to @Agent_technology_company" type="text" ></textarea></div>
     <div className="submit_button"><button className="base--button_fill">Reply</button></div>
     </div>
   </div>
