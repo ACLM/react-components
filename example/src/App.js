@@ -23,37 +23,49 @@ import JsonLinkExamples from './components/JsonLinkExamples';
 import JsonLinkInlineExamples from './components/JsonLinkInlineExamples';
 import InputWithButtonExamples from './components/InputWithButtonExamples';
 import BarExamples from './components/BarExamples';
+import Icon from '../../src/components/Icon';
+import Header from '../../src/components/Header';
+import Jumbotron from '../../src/components/Jumbotron';
+import Conversation from '../../src/components/Conversation';
+import TextInput from '../../src/components/TextInput';
+import Footer from '../../src/components/Footer';
 
 export default function App() {
   return (
     <div>
-      <Nav />
-      <LeadSpace />
+      <Header
+        mainBreadcrumbs="Service Name"
+        mainBreadcrumbsUrl="someUrl"
+        subBreadcrumbs="Demo Name"
+        subBreadcrumbsUrl="someUrl"
+        hasWordmark={false}
+      />
+      <Jumbotron
+        serviceName="Tone Analyzer for Customer Engagement"
+        repository="#"
+        documentation="#"
+        apiReference="#"
+        startInBluemix="#"
+        version="Beta"
+        serviceIcon="images/service-icon.svg"
+        description="Use the Tone Analyzer Customer Engagement model to monitor customer support conversations. Escalate customer conversations when they turn sour, or find opportunities to improve customer service scripts, dialogs, and customer journeys."
+      />
       <div className="_container _container_large">
         <div className="content--session-container">
-          <ToC>
-            <GettingStarted />
-            <IconExamples />
-            <HeaderExamples />
-            <FooterExamples />
-            <JumbotronExamples />
-            <TabsExamples />
-            <TextInputExamples />
-            <RadioGroupExamples />
-            <ButtonsGroupExamples />
-            <CodeExamples />
-            <ImagePickerExamples />
-            <AlertExamples />
-            <ModalExamples />
-            <ArrowBoxExamples />
-            <ColorsExample />
-            <JsonLinkExamples />
-            <JsonLinkInlineExamples />
-            <InputWithButtonExamples />
-            <BarExamples />
-          </ToC>
+          <Conversation/>
         </div>
       </div>
+      <Jumbotron
+        serviceName="Next Up: Build your own app"
+        repository="#"
+        documentation="#"
+        apiReference="#"
+        startInBluemix="#"
+        version="Beta"
+        serviceIcon="images/service-icon.svg"
+        description="Use Tone Analyzer to get started."
+      />
+      <Footer />
     </div>
   );
 }

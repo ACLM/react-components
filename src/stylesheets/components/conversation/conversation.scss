@@ -1,0 +1,165 @@
+
+.conversation_frame {
+  width: 700px;
+  margin:auto;
+  padding: 10px;
+  height: auto;
+  min-height: 90px;
+  overflow: auto;
+
+}
+
+.reset_link {
+  margin-bottom: 1em;
+}
+
+.conversation {
+  width: 100%;
+  border: 1px solid color('gray', 20);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: auto;
+  min-height: 90px;
+  overflow: auto;
+  border-bottom: none;
+}
+
+.speaker {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  overflow: auto;
+  padding: 20px;
+}
+.conversation_header {
+  width: 100%;
+  padding-left:20px;
+  padding-top: 10px;
+  font-size: 1.25em;
+}
+
+.statement_header {
+  float: left;
+  width: 77%;
+}
+
+.tone_header {
+  float: left;
+  margin-top: 0;
+}
+.consumer {
+  background-color: #F5F3FA;
+}
+
+.avatar {
+  float:left;
+  width: 70px;
+  height: 70px;
+  border: 1px solid color('gray', 20);
+  border-radius: 10px;
+  margin-right: 1em;
+}
+
+.statement_container {
+  float: left;
+  width: 64%;
+  border-right: 1px solid color('gray', 20);
+  margin-right: 15px;
+  margin-top: 0;
+  min-height: 70px;
+}
+.speaker_name {
+  font-weight: bold;
+  font-size: .875em;
+}
+.speaker_handle {
+  font-size: .875em;
+}
+.time_stamp {
+  text-transform: uppercase;
+  color: #777677;
+  font-size: .75em;
+}
+
+.speaker_statement {
+  overflow: hidden;
+  font-size: .875em;
+  margin-top: .25em;
+  margin-right: 1em;
+  line-height: 1.25em;
+}
+
+.score_container {
+  float: left;
+  width: 20%;
+  margin-top: 3px;
+}
+
+.tone_text {
+  float: left;
+  font-size: .75em;
+  margin-top: 0;
+  width: 75%;
+}
+.tone_score {
+  font-weight: bold;
+  float: right;
+  font-size: .75em;
+  margin-top: 0;
+  width: 25%;
+}
+
+.negative {
+  color: #DB207C;
+}
+
+.contribute_container {
+  background-color: color('white', 40);
+  width: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 1px solid color('gray', 20);
+  margin-top: 0;
+}
+.input_wrapper {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+textarea {
+  height:70px;
+  border: 1px color('gray', 30);
+  resize: none;
+}
+
+.input_area {
+    width: 90%;
+    float: left;
+    margin-top: 0;
+}
+.input_avatar {
+  float:left;
+  width: 35px;
+  height: 35px;
+  border: 1px solid color('gray', 20);
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-right: 1em;
+}
+.submit_button {
+  float: right;
+  margin-right: 15px;
+  margin-top: 20px;
+}
+.reset {
+  float: left;
+}
+
+.json {
+  float: right;
+  margin-top: 0;
+}
+.conversation_footer {
+  height: 20px;
+  margin-bottom: 4em;
+}
